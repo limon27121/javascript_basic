@@ -39,7 +39,10 @@ for(let x of fruits.values()){
            text2+=x
 }
 
+//give value
 console.log(text2)
+
+//decleare map
 const fruits1 = new Map();
 
 // Set Map Values
