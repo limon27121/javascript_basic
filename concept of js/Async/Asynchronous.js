@@ -51,7 +51,7 @@ const payment_success=true;
 let marks=70;
 
 
-function enroll(callback){
+function enroll(){
     console.log("enrollment processing")
     const promise=new Promise(function(resolve,reject){
         setTimeout(function(){
