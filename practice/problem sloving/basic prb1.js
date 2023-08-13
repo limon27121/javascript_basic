@@ -74,6 +74,6 @@ console.log(count_vowels(" i love bangladesh"))
 const numbers=[1,2,2,3,4,4,5,6,5,7,6]
 
 const duplicates=numbers.filter(function(value,index){
-    return numbers.indexOf(value)===index
+    return numbers.indexOf(value)!==index
 })
 console.log(duplicates)

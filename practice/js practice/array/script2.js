@@ -32,21 +32,21 @@ const num=[1,5,7,8,9];
 // console.log(num1=="5")
 
 
-// let a =parseInt(prompt("enter a number"));
+let a =parseInt(prompt("enter a number"));
 
-// switch (a) {
+switch (a) {
 
-//     case 1:
-//         a = 'one';
-//         break;
-//     case 2:
-//         a = 'two';
-//         break;
-//     default:
-//         a = 'not found';
-//         break;
-// }
-// console.log(`The value is ${a}`);
+    case 1:
+        a = 'one';
+        break;
+    case 2:
+        a = 'two';
+        break;
+    default:
+        a = 'not found';
+        break;
+}
+console.log(`The value is ${a}`);
 
 // let add=0;
 // for(let x in num){

@@ -43,26 +43,43 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // console.log(array1)
 
 
-// const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
-// fruits2.splice(2, 2, "Lemon", "Kiwi");
-// console.log(fruits2)
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+fruits2.slice(2, 2, "Lemon", "Kiwi");
+console.log(fruits2)
 
 // const array2=fruits2.slice(2);
 // console.log(array2)
 
 // console.log(fruits2)
 
+
+
+
 // console.log(fruits2.sort())
 // console.log(fruits2)
 
 let array3=[40, 100, 1, 5, 25, 10];
 document.getElementById("demo").innerHTML=array3;
-//numricial sort
+
+
+//numerical sort
+
+//ascending sort
 array3.sort(function(a,b) {
     return a-b;
     
 });
 document.getElementById("demo1").innerHTML=array3;
+
+
+//descending order
+
+array3.sort(function(a,b){
+    return b-a;
+})
+
+//find sum using array
+
 let sum=0;
 for(let i=0;i<array3.length;i++){
     sum+=array3[i];
