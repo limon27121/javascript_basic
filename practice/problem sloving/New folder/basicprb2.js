@@ -122,12 +122,7 @@ console.log(`${series}${sum}`);
 
 
 
-var foods = ["Cake", "Ice Cream", "Chocolates", "Bread"];
+let fun = () => { let a = 6 }; console.log(a);
 
 
 
-foods.forEach(print)
-
-function print (value){
-    console.log(value)
-}
