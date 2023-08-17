@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+    <h1>Add your comment</h1>
+    <div id="comment_section">
+        <h4>Your comments</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, nesciunt sint quisquam labore ipsa eligendi suscipit, blanditiis doloribus, nisi qui corporis laudantium maxime quibusdam consequuntur! Labore iste odio quibusdam totam.</p><br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequuntur a quaerat eveniet ea nihil minus nostrum, dignissimos eius laudantium cupiditate nulla adipisci iure enim aspernatur error debitis voluptate? Facere.</p><br>
+
+    </div>
+</section>
+    <div id="comment_box">
+        <textarea name="" id="comment_area" cols="30" rows="10"></textarea><br>
+        <button id="bt1">submit</button>
+
+    </div>
+    <script>
+        //button action method
+        document.getElementById("bt1").addEventListener("click",function(){
+           const comment=document.getElementById("comment_area").value
+          
+           //create paragraph tag
+           const p_tag=document.createElement("p");
+
+           //put comment in paragraph tag
+           p_tag.innerText=comment;
+
+           //add comment in  comment section
+
+           document.getElementById("comment_section").append(p_tag);
+            
+           //comment box clear after add comment
+           comment_area.value=""
+
+
+
+        })
+    </script>
+</body>
+</html>
