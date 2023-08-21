@@ -16,9 +16,13 @@ function jsonData(json_obj) {
 
     //convert obj
     var js_obj = JSON.parse(json_obj);
+
     // console.log(js_obj);
+
     for(let x in js_obj.persons){
+
         var persons=js_obj.persons
+        
         console.log(persons[x])
 
         for(let y in persons[x]){
