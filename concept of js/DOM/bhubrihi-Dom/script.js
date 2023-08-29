@@ -28,6 +28,8 @@ document.querySelector("li:nth-child(3)").style.color="green"
 
 val=document.querySelectorAll(".sample-class li")
 
+//it gives array so that we us the variable as a array
+
 val.forEach(function(item){
     console.log(item)
 })

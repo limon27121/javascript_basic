@@ -21,6 +21,7 @@ function myFunction(a, b) {
   let sub=y(10,2);
   console.log(sub)
   
+  
 //call method work
   const person = {
     fullName: function() {

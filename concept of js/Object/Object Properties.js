@@ -23,6 +23,8 @@ for(let x in person){
 //delete the object properties
 delete person.age;
 
+//using loop to print the value of properties
+
 for(let x in person){
     console.log(person[x])
 }
