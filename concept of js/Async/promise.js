@@ -12,6 +12,7 @@ const promise=new Promise(function(resolve,reject){
    },2000);
 })
 
+
 //promise call
 promise
 .then(function(value){
