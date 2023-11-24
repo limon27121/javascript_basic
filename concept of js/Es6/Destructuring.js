@@ -27,3 +27,25 @@ function display({firstName:fname,lastName:lname,dob:date}){
 display(person)
 
 
+
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+let person2 = {
+    name: 'John',
+    age: 30,
+    address: {
+        street: '123 Main St',
+        city: 'Anytown',
+        country: 'Exampleland'
+    }
+}
+
+
+const{address:{city}}=person2
+
+//handling undefined
+// const{address:{city}={}}=person2
+
+console.log(city)

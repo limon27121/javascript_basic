@@ -8,7 +8,7 @@ function calculator(a,b,callback){
     let sum=a+b;
     if(callback)
     callback(sum)
-    return sum
+   
 }
 
 calculator(2,4,display)
